@@ -1,0 +1,30 @@
+package africa.semicolon.sendAm.dtos.responses;
+
+public class FindUserResponse {
+    private String email;
+    private String fullName;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "FindUserResponse{" +
+                "email='" + email + '\'' +
+                ", fullName='" + fullName + '\'' +
+                '}';
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+}
